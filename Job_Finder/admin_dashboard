@@ -1,0 +1,8 @@
+<?php  
+    $theme = 'includes//admin_layout.php';
+    echo $theme;
+    include($theme);
+?>
+
+
+

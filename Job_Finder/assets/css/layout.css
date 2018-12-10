@@ -1,0 +1,24 @@
+/* Rows
+--------------------------------------------------------------------------------------------------------------- */
+.row1, .row1 a{}
+.row2, .row2 a{}
+.row3, .row3 a{}
+.row4, .row4 a{}
+.row5, .row5 a{}
+
+#comments div{margin-bottom:15px;}
+
+* Rows */
+.row1{color:#FFFFFF; background-color:rgba(255,255,255,.2);}
+.row2{color:#CBCBCB; background-color:#222222;}
+.row3{color:#474747; background-color:#FFFFFF;}
+.row4{color:#CBCBCB; background-color:#222222;}
+.row5, .row5 a{color:#CBCBCB; background-color:#222222;}
+
+.overlay .heading, .row2 .heading, .row4 .heading{color:#FFFFFF;}
+
+.quicklinks ul{}
+.quicklinks ul li{display:inline-block; margin-right:10px;}
+.quicklinks ul li::after{margin-left:10px; content:"|";}
+.quicklinks ul li:last-child::after{margin-left:0; content:"";}
+#breadcrumb ul{margin:0; padding:0; list-style:none; text-transform:uppercase;}
